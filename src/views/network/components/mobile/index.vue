@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="area-l">
-          <span id="time"></span>
+          <span id="time" class="phone-time">{{ getTime }}</span>
         </div>
         <div class="area-r">
           <div class="signal">
@@ -69,6 +69,7 @@
   </iphone>
 </template>
 <script>
+// import "@/views/network/components/resource/js/time.js";
 export default {
   data() {
     return {
@@ -161,6 +162,7 @@ export default {
       ],
       submits: [],
       showMobile: false,
+      getTime: "",
     };
   },
   created() {
@@ -178,6 +180,7 @@ export default {
   },
   methods: {
     setTime() {
+      let that = this;
       // JavaScript Document
       function showLocale(objD) {
         "use strict";
@@ -195,7 +198,8 @@ export default {
         "use strict";
         var today;
         today = new Date();
-        document.getElementById("time").innerHTML = showLocale(today);
+        that.getTime = showLocale(today);
+        // document.getElementById("time").innerHTML = showLocale(today);
         window.setTimeout(() => {
           tick();
         }, 1000);

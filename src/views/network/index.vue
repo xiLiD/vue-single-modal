@@ -12,14 +12,6 @@
           <i :class="item.icon"></i>
           <span>{{ item.value }}</span>
         </div>
-        <!-- <div class="tab-item">
-          <i class="el-icon-mobile"></i>
-          <span>手机预览</span>
-        </div>
-        <div class="tab-item">
-          <i class="el-icon-monitor"></i>
-          <span>电脑预览</span>
-        </div> -->
       </div>
       <div class="tab-right">
         <div class="btn-see">关闭预览</div>
@@ -69,10 +61,7 @@ export default {
     setWatch(e) {
       let index = e.currentTarget.getAttribute("data-index");
       this.watchIndex = index;
-      console.log(this.watchIndex, index);
-
       if (index == 1 || index == 2) {
-        console.log(this.$refs["wtPort"]);
         this.$refs["wtPort"].setMobile(index == 1);
       }
     },
