@@ -1,0 +1,52 @@
+/deep/ .el-table {
+    margin-top: 10px;
+    width : 100%;
+    table {
+      width:100% !important;
+    }
+    .warning-row {
+      background-color: rgb(242, 245, 252);
+    }
+    thead {
+      th {
+        background-color: rgb(242, 245, 252);
+        color: #999;
+        font-weight: 500;
+        padding: 5px 0;
+        font-size: 12px;
+        // letter-spacing: 1px;
+      }
+    }
+    tbody {
+
+      td {
+        font-size: 12px;
+        padding: 5px 0;
+      }
+      tr:hover > td {
+        background-color: rgb(217, 236, 255) !important;
+      }
+    }
+  }
+
+  .page-title {
+    padding: 10px 10px 10px 0;
+    margin-bottom: 10px;
+    color: #409eff;
+    font-size: 18px;
+    color: #409eff;
+    letter-spacing: 1px;
+    font-family: "Microsoft YaHei";
+    position: relative;
+  }
+  .page-title::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    // padding:0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // padding-bottom: 10px;
+  }

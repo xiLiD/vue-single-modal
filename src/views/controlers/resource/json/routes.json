@@ -1,0 +1,70 @@
+{
+    "routes": [
+        {
+            "title": "我的工作台",
+            "name": "1",
+            "route": "workTable",
+            "redirect": ""
+        },
+        {
+            "title": "更多公告",
+            "name": "2",
+            "route": "announceList",
+            "redirect": ""
+        },
+        {
+            "title": "新增公告",
+            "name": "3",
+            "route": "announceAdd",
+            "redirect": ""
+        },
+        {
+            "title": "更多待办",
+            "name": "4",
+            "route": "auditList",
+            "redirect": ""
+        },
+        {
+            "title": "更多申请",
+            "name": "6",
+            "route": "activity",
+            "redirect": ""
+        },
+        {
+            "title": "更多预警",
+            "name": "7",
+            "route": "warnList",
+            "redirect": ""
+        },
+        {
+            "title": "更多快捷功能导航",
+            "name": "8",
+            "route": "navagation",
+            "redirect": ""
+        },
+        {
+            "title": "快捷键管理",
+            "name": "9",
+            "route": "administration",
+            "redirect": ""
+        },
+        {
+            "title": "帮助中心",
+            "name": "10",
+            "route": "help",
+            "redirect": ""
+        },
+        {
+            "title": "评论中心",
+            "name": "11",
+            "route": "comment",
+            "redirect": ""
+        },
+        {
+            "title": "百度",
+            "name": "12",
+            "route": "iframe",
+            "redirect": "http://www.baidu.com"
+        }
+    ]
+}

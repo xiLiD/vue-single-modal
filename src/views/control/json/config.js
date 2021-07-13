@@ -1,0 +1,16 @@
+export default {
+    statis_date: '日期',
+    statis_month: '月份',
+    city_name: '地市',
+    cnty_name: '区县',
+    grid_name: '网格',
+    gsm_lvl_name : '客户等级',
+    chnl_type_name: '受渠道类型',
+    busi_type_name: '一级目录',
+    busi_type_1_name: '二级目录',
+    busi_type_2_name : '三级目录',
+    busi_type_3_name : '四级目录',
+    busi_type_4_name: '五级目录',
+    busi_type_5_name: '六级目录',
+    busi_type_6_name: '七级目录',
+}
